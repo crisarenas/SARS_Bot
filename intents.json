@@ -1,0 +1,28 @@
+{"intents":[
+    {"tag":"greetings",
+    "patterns": ["Hola, chat","¿Cómo estás?","Hola","Holi","OLA KE ASE", "Buenos días", "Buenas tardes","Soy Concha, entro"],
+    "responses":["Hola Usuario, ¿qué deseas?", "Bienvenido al chat, ¿en qué puedo servirte?","Te saludo, mortal ¿cuál es tu petición?"],
+    "context":[""]
+    },
+    
+    {"tag":"goodbye",
+    "patterns": ["Adios","Nos vemos","Me voy","Cierro","Hasta luego","Ciao","Esto es todo"],
+    "responses":["Adios, muy buenas","Hasta luego","Hasta mañana","Hasta nuestro próximo encuentro"],
+    "context":[""]
+    },
+    
+    {"tag":"thanks",
+    "patterns": ["Gracias","Muchas gracias","Ha sido muy útil","Eternamente agradecido"],
+    "responses":["De nada","Encantado de ayudar","Vivo para servir"],
+    "context":[""]
+    },
+        
+    
+    {"tag":"noanswer",
+    "patterns": [],
+    "responses":["No te entiendo","Repite, por favor","Dímelo de otra forma, por favor"],
+    "context":[""]
+    }
+    
+]}
+    
