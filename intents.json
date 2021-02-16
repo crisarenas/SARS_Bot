@@ -1,10 +1,36 @@
 {"intents":[
     {"tag":"greetings",
-    "patterns": ["Hola, chat","¿Cómo estás?","Hola","Holi","OLA KE ASE", "Buenos días", "Buenas tardes","Soy Concha, entro"],
-    "responses":["Hola Usuario, ¿qué deseas?", "Bienvenido al chat, ¿en qué puedo servirte?","Te saludo, mortal ¿cuál es tu petición?"],
+    "patterns": ["Hola, chat","¿Cómo estás?", "Buenas, hay alguien?","Hola","Holi","OLA KE ASE", "Buenos días", "Buenas tardes","Soy Concha, entro",
+    "Quería hablar con alguien","¡Hola!","hola!","hola?", "Ey"],
+    "responses":["Bienvenido al chatbot de información sobre la COVID 19. \nPor favor, escribeme tus preguntas o dudas acerca de la pandemia e intenré ayudarte lo mejor que me sea posible."],
     "context":[""]
     },
-    
+
+    {"tag":"whatiscovid",
+    "patterns": ["¿Qué es el covid?","No se que es el coronavirus","Explicame a que se debe la covid19",
+    "Enseñame informacion sobre la COVID-19","Dame info sobre el coronavirus","¿Qué es un coronavirus?",
+    "Muestrame toda la información que me puedas dar sobre el SARS-CoV-2","Dime cosas del SARSCoV2 "],
+    "responses":["\nLa COVID-19 es la enfermedad infecciosa causada por el coronavirus que se ha descubierto más recientemente (SARS-CoV-2). Tanto este nuevo virus como la enfermedad que provoca eran desconocidos antes de que estallara el brote en Wuhan (China) en diciembre de 2019. Actualmente la COVID-19 es una pandemia que afecta a muchos países de todo el mundo. \n\nLos coronavirus son una extensa familia de virus que pueden causar enfermedades tanto en animales como en humanos. En los humanos, se sabe que varios coronavirus causan infecciones respiratorias que pueden ir desde el resfriado común hasta enfermedades más graves como el síndrome respiratorio de Oriente Medio (MERS) y el síndrome respiratorio agudo severo (SRAS). El coronavirus que se ha descubierto más recientemente causa la enfermedad por coronavirus COVID-19.\n\nPuedes ver más información en el siguiente enlace:\n\nhttps://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/advice-for-public/q-a-coronaviruses"],
+    "context":[""]
+    },
+
+
+    {"tag":"list_synthoms",
+        "patterns": ["¿qué sintomas tiene el coronavirus?","¿Cuáles son los sintomas del coronavirus?", "Hola, Dime que sintomatología provoca la covid19",
+        "No se que sintomas provoca el SARS-Cov-2","Buenas, Hazme una lista de lo que provoca el coronabirus"],
+        "responses":["\nLos síntomas más habituales de la COVID-19 son la fiebre, la tos seca y el cansancio. Otros síntomas menos frecuentes que afectan a algunos pacientes son los dolores y molestias, la congestión nasal, el dolor de cabeza, la conjuntivitis, el dolor de garganta, la diarrea, la pérdida del gusto o el olfato y las erupciones cutáneas o cambios de color en los dedos de las manos o los pies. Estos síntomas suelen ser leves y comienzan gradualmente. Algunas de las personas infectadas solo presentan síntomas levísimos.\n\nLa mayoría de las personas (alrededor del 80%) se recuperan de la enfermedad sin necesidad de tratamiento hospitalario. Alrededor de 1 de cada 5 personas que contraen la COVID-19 acaba presentando un cuadro grave y experimenta dificultades para respirar. Las personas mayores y las que padecen afecciones médicas previas como hipertensión arterial, problemas cardiacos o pulmonares, diabetes o cáncer tienen más probabilidades de presentar cuadros graves. Sin embargo, cualquier persona puede contraer la COVID-19 y caer gravemente enferma. Las personas de cualquier edad que tengan fiebre o tos y además respiren con dificultad, sientan dolor u opresión en el pecho o tengan dificultades para hablar o moverse deben solicitar atención médica inmediatamente. Si es posible, se recomienda llamar primero al profesional sanitario o centro médico para que estos remitan al paciente al establecimiento sanitario adecuado."],
+        "context":[""]
+        },
+           
+
+    {"tag":"i_have_sympthoms",
+    "patterns": ["Creo que me he infectado con covid", "Buenas No se si he cogido el coronavirus", "Cómo saber si tengo covid19",
+    "Tengo algunos síntomas de coronavirus, ¿cómo se si lo tengo?","Cómo se si me he contagiado del covid-19", "Dime si tengo covid",
+    "Hola, Debo llamar al médico si tengo tos?","No se si debo ir al hospital si he cogido fiebre"],
+    "responses":["Aquí te haría una serie de preguntas, pero todavía no estoy preparado para ello."],
+    "context":[""]
+    },
+
     {"tag":"goodbye",
     "patterns": ["Adios","Nos vemos","Me voy","Cierro","Hasta luego","Ciao","Esto es todo"],
     "responses":["Adios, muy buenas","Hasta luego","Hasta mañana","Hasta nuestro próximo encuentro"],
@@ -25,4 +51,3 @@
     }
     
 ]}
-    
