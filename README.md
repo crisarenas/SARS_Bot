@@ -1,4 +1,4 @@
-# SARS hatbot
+# SARS chatbot
 
 The pandemic due to COVID-19 has collapsed HealthCare in many countries. Citizens' doubts regarding symptoms and procedures is another aspect that contributes to the saturation of the HealthCare System. This is why solutions have been sought for example with online applications or web pages that alleviate the workload of official communication channels.
 
